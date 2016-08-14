@@ -64,3 +64,6 @@
 
   https://github.com/xerpi/SDL-Vita
   - "An unofficial, automated SDL2 and SDL1.2 HG mirror."
+
+  https://github.com/xerpi/libftpvita
+  - "FTP Server for the PSVita"
