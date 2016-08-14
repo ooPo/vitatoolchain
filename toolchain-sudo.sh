@@ -6,6 +6,7 @@ cd "`dirname $0`" || { echo "ERROR: Could not enter the toolchain directory."; e
 
 ## Set up the environment.
 export VITADEV=/usr/local/vitadev
+export VITASDK=$VITADEV
 
 ## Set up the path.
 export PATH=$PATH:$VITADEV/bin
