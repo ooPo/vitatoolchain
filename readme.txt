@@ -29,6 +29,7 @@
 
    ## Set up the environment.
    export VITADEV=/usr/local/vitadev
+   export VITASDK=$VITADEV
 
    ## Set up the path.
    export PATH=$PATH:$VITADEV/bin
