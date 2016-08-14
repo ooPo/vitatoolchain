@@ -6,7 +6,7 @@ SDL_VITA="SDL-Vita"
 if [ ! -d ${SDL_VITA} ]; then
 
   ## Download the source code.
-  git clone https://github.com/xerpi/SDL-Vita
+  git clone https://github.com/ooPo/SDL-Vita
 
 fi
 
