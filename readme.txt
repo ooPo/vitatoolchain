@@ -61,3 +61,6 @@
 
   https://github.com/xerpi/libvita2d
   - "Simple and Fast (using the GPU) 2D library for the PSVita"
+
+  https://github.com/xerpi/SDL-Vita
+  - "An unofficial, automated SDL2 and SDL1.2 HG mirror."
