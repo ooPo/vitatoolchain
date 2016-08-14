@@ -55,3 +55,9 @@
 
   https://github.com/vitasdk/vita-headers
   - Headers for SCE libraries.
+
+  https://github.com/xerpi/vita_portlibs
+  - "Portlibs for the PSVita"
+
+  https://github.com/xerpi/libvita2d
+  - "Simple and Fast (using the GPU) 2D library for the PSVita"
