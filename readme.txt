@@ -13,7 +13,7 @@
 
   1) Set up your environment by installing the following software:
 
-   autoconf, automake, bison, flex, gcc, make, makeinfo,
+   autoconf, automake, bison, flex, gcc, git, make, makeinfo,
    ncurses, patch, python, subversion, wget, zlib, libtool, python,
    bzip2, gmp, pkg-config, ziplib, janssen, cmake
 
@@ -23,7 +23,7 @@
    apt-get install autoconf automake bison flex gcc make \
      texinfo libncurses5-dev patch python subversion wget \
      zlib1g-dev libtool python-dev bzip2 libgmp3-dev pkg-config \
-     libzip-dev libjansson-dev cmake
+     libzip-dev libjansson-dev cmake git
 
   2) Add the following to your login script:
 
