@@ -13,7 +13,7 @@
 
   1) Set up your environment by installing the following software:
 
-   autoconf, automake, bison, flex, gcc, libelf, make, makeinfo,
+   autoconf, automake, bison, flex, gcc, make, makeinfo,
    ncurses, patch, python, subversion, wget, zlib, libtool, python,
    bzip2, gmp, pkg-config, ziplib, janssen, cmake
 
