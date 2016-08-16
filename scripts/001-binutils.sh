@@ -32,6 +32,8 @@ cd ${BINUTILS}/build-vita
 	--disable-nls \
 	--disable-shared \
 	--disable-werror \
+	--enable-interwork \
+	--enable-plugins \
 	--with-arch=armv7-a \
 	--with-tune=cortex-a9 \
 	--with-fpu=neon \

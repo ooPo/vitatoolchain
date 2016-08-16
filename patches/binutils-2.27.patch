@@ -1,3 +1,14 @@
+diff -ru orig.binutils-2.27/bfd/elf32-arm.c binutils-2.27/bfd/elf32-arm.c
+--- orig.binutils-2.27/bfd/elf32-arm.c	2016-08-03 04:36:50.000000000 -0300
++++ binutils-2.27/bfd/elf32-arm.c	2016-08-16 11:38:06.152493715 -0300
+@@ -18172,6 +18172,7 @@
+ {
+   struct _arm_elf_section_data *arm_data;
+   arm_data = get_arm_elf_section_data (sec);
++  if ( ! arm_data ) { return 0; }
+   return arm_data->additional_reloc_count;
+ }
+ 
 diff -ru orig.binutils-2.27/ld/scripttempl/elf.sc binutils-2.27/ld/scripttempl/elf.sc
 --- orig.binutils-2.27/ld/scripttempl/elf.sc	2016-08-03 04:36:54.000000000 -0300
 +++ binutils-2.27/ld/scripttempl/elf.sc	2016-08-13 16:49:51.306136428 -0300
