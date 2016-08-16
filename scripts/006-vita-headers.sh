@@ -20,6 +20,6 @@ vita-libs-gen db.json .
 ${MAKE:-make} -j4
 
 ## Install.
-cp *.a ${VITADEV}/arm-vita-eabi/lib/
-cp -r include ${VITADEV}/arm-vita-eabi/
-mkdir -p ${VITADEV}/share && cp db.json ${VITADEV}/share
+cp *.a ${VITASDK}/arm-vita-eabi/lib/
+cp -r include ${VITASDK}/arm-vita-eabi/
+mkdir -p ${VITASDK}/share && cp db.json ${VITASDK}/share

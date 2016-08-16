@@ -17,7 +17,7 @@ fi
 cd ${LIBELF}
 
 ## Configure the build.
-./configure --prefix=${VITADEV}
+./configure --prefix=${VITASDK}
 
 ## Compile and install.
 ${MAKE:-make} -j4 && ${MAKE:-make} install

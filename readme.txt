@@ -27,16 +27,15 @@
 
   2) Add the following to your login script:
 
-   ## Set up the environment.
-   export VITADEV=/usr/local/vitadev
-   export VITASDK=$VITADEV
+    ## Set up the environment.
+    export VITASDK=/usr/local/vitasdk
 
-   ## Set up the path.
-   export PATH=$PATH:$VITADEV/bin
+    ## Set up the path.
+    export PATH=$PATH:$VITASDK/bin
 
   3) Run the toolchain script:
 
-   ./toolchain.sh
+    ./toolchain.sh
 
   4) Enjoy!
 
@@ -56,11 +55,8 @@
   https://github.com/vitasdk/vita-headers
   - Headers for SCE libraries.
 
-  https://github.com/xerpi/vita_portlibs
-  - "Portlibs for the PSVita"
-
-  https://github.com/xerpi/libvita2d
-  - "Simple and Fast (using the GPU) 2D library for the PSVita"
+  https://github.com/vitadev/vdpm
+  - "Mini build system & package manager for $VITASDK"
 
   https://github.com/xerpi/SDL-Vita
   - "An unofficial, automated SDL2 and SDL1.2 HG mirror."

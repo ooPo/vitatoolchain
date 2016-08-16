@@ -42,7 +42,7 @@ fi
 cd ${GCC}/build-vita
 
 ## Configure the build.
-../configure --prefix=${VITADEV} --target=arm-vita-eabi \
+../configure --prefix=${VITASDK} --target=arm-vita-eabi \
 	--disable-multilib \
 	--disable-nls \
 	--disable-shared \
