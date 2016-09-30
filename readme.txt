@@ -23,7 +23,7 @@
       apt-get install autoconf automake bison build-essential bzip2 \
         cmake flex git libgmp3-dev libjansson-dev libncurses5-dev \
         libtool libzip-dev pkg-config python python-dev subversion \
-        texinfo wget zlib1g-dev
+        texinfo wget zlib1g-dev xutils-dev
 
   2) Add the following to your login script:
 

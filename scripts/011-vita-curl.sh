@@ -1,6 +1,9 @@
 #!/bin/sh -e
 # vita-curl.sh by Sunguk Lee (d3m3vilurr@gmail.com)
 
+## This didn't build for me, disabling for now.
+exit
+
 VITA_CURL="vita-curl"
 BRANCH="vita"
 

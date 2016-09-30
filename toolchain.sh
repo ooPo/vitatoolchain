@@ -34,7 +34,7 @@ if [ $1 ]; then
       fi
     done
 
-    [ -z $SCRIPT ] && { echo "ERROR: unknown step $STEP"; exit 1; }
+    [ -z $SCRIPT ] && { echo "ERROR: Unknown step $STEP"; exit 1; }
 
     REQUESTS="$REQUESTS $SCRIPT"
   done
