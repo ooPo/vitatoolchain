@@ -7,7 +7,7 @@ BRANCH="vita-1_0_2"
 if [ ! -d ${VITA_OPENSSL}-${BRANCH} ]; then
 
   ## Download the source code.
-  wget --continue https://github.com/xyzz/${VITA_OPENSSL}/archive/${BRANCH}.tar.gz -O ${VITA_OPENSSL}-${BRANCH}.tar.gz
+  wget --continue https://github.com/d3m3vilurr/${VITA_OPENSSL}/archive/${BRANCH}.tar.gz -O ${VITA_OPENSSL}-${BRANCH}.tar.gz
 
   ## Unpack the source code.
   tar xfvz ${VITA_OPENSSL}-${BRANCH}.tar.gz
