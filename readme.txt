@@ -15,7 +15,7 @@
 
       autoconf, automake, bison, bzip2, cmake, flex, g++, gcc, git,
       gmp, janssen, libtool, make, makedepend, makeinfo, ncurses,
-      patch, pkg-config, python, subversion, wget, ziplib, zlib
+      patch, pkg-config, python, subversion, wget, yaml, ziplib, zlib
 
     Specifically on debian-based systems, the following command line should
     be enough to install everything necessary:
@@ -23,7 +23,7 @@
       apt-get install autoconf automake bison build-essential bzip2 \
         cmake flex git libgmp3-dev libjansson-dev libncurses5-dev \
         libtool libzip-dev pkg-config python python-dev subversion \
-        texinfo wget zlib1g-dev xutils-dev
+        texinfo wget yaml-dev zlib1g-dev xutils-dev
 
   2) Add the following to your login script:
 
