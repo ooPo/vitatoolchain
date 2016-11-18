@@ -8,9 +8,6 @@ if [ ! -d ${SDL_VITA} ]; then
   ## Download the source code.
   git clone https://github.com/xerpi/SDL-Vita
 
-  ## Patch the source code.
-  cat ../patches/${SDL_VITA}.patch | patch -p1 -d ${SDL_VITA}
-
 fi
 
 ## Enter the build directory.
