@@ -14,14 +14,14 @@
   1) Set up your environment by installing the following software:
 
       autoconf, automake, bison, bzip2, cmake, flex, g++, gcc, git,
-      gmp, janssen, libtool, make, makedepend, makeinfo, ncurses,
+      gmp, libtool, make, makedepend, makeinfo, ncurses,
       patch, pkg-config, python, subversion, wget, yaml, ziplib, zlib
 
     Specifically on debian-based systems, the following command line should
     be enough to install everything necessary:
 
       apt-get install autoconf automake bison build-essential bzip2 \
-        cmake flex git libgmp3-dev libjansson-dev libncurses5-dev \
+        cmake flex git libgmp3-dev libncurses5-dev \
         libtool libzip-dev pkg-config python python-dev subversion \
         texinfo wget yaml-dev zlib1g-dev xutils-dev
 
