@@ -14,7 +14,7 @@ fi
 cd ${VITA_HEADERS}
 
 ## Configure the build.
-vita-libs-gen db.json .
+vita-libs-gen db.yml .
 
 ## Compile.
 ${MAKE:-make} -j4
