@@ -22,4 +22,4 @@ ${MAKE:-make} -j4
 ## Install.
 cp *.a ${VITASDK}/arm-vita-eabi/lib/
 cp -r include ${VITASDK}/arm-vita-eabi/
-mkdir -p ${VITASDK}/share && cp db.json ${VITASDK}/share
+mkdir -p ${VITASDK}/share && cp db.yml ${VITASDK}/share
