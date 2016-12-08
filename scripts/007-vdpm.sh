@@ -6,7 +6,7 @@ VDPM="vdpm"
 if [ ! -d ${VDPM} ]; then
 
   ## Download the source code.
-  git clone https://github.com/vitadev/vdpm
+  git clone https://github.com/vitasdk/vdpm
 
 fi
 
