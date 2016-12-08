@@ -55,7 +55,7 @@
   https://github.com/vitasdk/vita-headers
   - Headers for SCE libraries.
 
-  https://github.com/vitadev/vdpm
+  https://github.com/vitasdk/vdpm
   - "Mini build system & package manager for $VITASDK"
 
   https://github.com/xerpi/SDL-Vita
