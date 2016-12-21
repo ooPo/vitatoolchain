@@ -14,5 +14,4 @@ fi
 cd ${VDPM}
 
 ## Compile and install.
-cp config.sample config && ./install-all.sh
-cp config.travis config && ./vdpm -i freetype
+./install-all.sh

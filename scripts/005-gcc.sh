@@ -1,7 +1,7 @@
 #!/bin/sh -e
 # gcc.sh by Naomi Peori (naomi@peori.ca)
 
-GCC="gcc-6.2.0"
+GCC="gcc-6.3.0"
 NEWLIB="newlib"
 
 if [ ! -d ${GCC} ]; then
